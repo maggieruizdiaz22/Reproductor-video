@@ -13,6 +13,7 @@ const container = document.querySelector(".container"),
  speedOptions= container.querySelector(".speed-options "),
  picInPicBtn= container.querySelector(".pic-in-pic span "),
  fullscreenBtn= container.querySelector(".fullscreen i ");
+
 let timer;
 const hiddenControls = ()=>{
     if(mainVideo.paused) return;
